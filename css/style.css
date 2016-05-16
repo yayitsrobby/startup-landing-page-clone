@@ -1,7 +1,33 @@
 body {
 	background-color: LightGray;
+	
 }
 
-div {
-	border: 1px solid Chocolate;
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+	padding: 1.5em;
+}
+
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-left: 15em;
+}
+
+.nav-links {
+	display: inline-block;
+	float: right;
+	margin-right: 15em;
+}
+
+.nav-links > a {
+	padding: 0.5em;
+	font-family: "Open Sans";
+	text-decoration: none; 
 }
