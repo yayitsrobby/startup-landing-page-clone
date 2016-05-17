@@ -17,6 +17,7 @@ body {
 	height: 4.375rem;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -121,10 +122,10 @@ button:hover {
 	padding: 0;
 }
 
-.cases .three-images > li {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
+.cases .devices {
+	width: 33.3333%;
+	display: inline-block;	
+	float: right;
 }
 
 .cases h2 {
