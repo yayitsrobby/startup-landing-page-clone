@@ -18,6 +18,7 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #ddd;
 }
 
 .content {
@@ -139,3 +140,55 @@ button:hover {
 	font-weight: 400;
 }
 
+/* Footer */
+
+.social {
+	padding-bottom: 9.375rem;
+	overflow: auto;
+	text-align: center;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social h5 {
+	font-weight: 400;
+	font-size: 100%;
+	margin: 0;
+}
+
+.social span {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
+
+.social .icons {
+	list-style: none;	
+	padding-left: 0;
+	margin: 0;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.social .icons > li {
+	display: inline-block;
+	border: 0.5px solid #eaebec;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+}
